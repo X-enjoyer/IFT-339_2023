@@ -80,12 +80,17 @@ class Point
     public:
         Point();
         Point(float x, float y);
-        float getX();
-        float getY();
+        Point(const Point& p);
+        Point& operator=(const Point& p);
+        ~Point();
+        Point translation_x(float x) const;
+        void translation_x(float x);
+        const float& getX() const;
+        const float& getY() const;
         void setX(float x);
         void setY(float y);
-        void afficher();
+            
 };
 
 #endif
-
+```
