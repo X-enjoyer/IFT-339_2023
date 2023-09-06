@@ -196,3 +196,5 @@ int main()
 {
     Fuite<int> f1;
 }
+
+```

@@ -34,6 +34,6 @@ File<T>
 }
 ```
 ---
-### À L'EXAMEN **********
+## À L'EXAMEN **********
 Exercice : Définnissez les opérations du type abstrait PU selon la nomenclature définie plus haut. (Voir doc. "Annexe: Type de données abstrait (TDA)")
 
