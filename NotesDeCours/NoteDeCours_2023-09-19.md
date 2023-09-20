@@ -75,6 +75,14 @@ Vector<T>& vector<T>::operator=(const Vector<T>& v)
     size=v.size();
 }
 
+template<typename T>
+void Vector<T>::swap(Vector<T>& v)
+{
+    std::swap(tab, v.tab);
+    std::swap(size, v.size);
+    std::swap(cap, v.cap);
+}
+
 int main()
 {
     Vector<int> v;
